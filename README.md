@@ -12,4 +12,5 @@ indefinitly and if the ball falls off nothing happens.
 
 
 //Game deffinitly runs on Chrome and Firefox, I'm not sure about other browsers since I havent tested on them.
+
 //I haven't put much thought into making everything look good on any resolution so it might not be perfectly centered.
