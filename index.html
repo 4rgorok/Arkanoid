@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkanoid</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body oncontextmenu="return false;">
+    <script src="generator.js"></script>
+    <script src="tile.js"></script>
+    <script src="gra.js"></script>
+    <script src="paletka.js"></script>
+    <script src="pilka.js"></script>
+    <div id="menu" hidden>
+        <div id="i0" class="opcja" onclick="ctrlZ()"><p class="opis1">Undo&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;Ctrl+Z</p></div>
+        <div id="i1" class="opcja" onclick="ctrlY()"><p class="opis1">Redo&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;Ctrl+Y</p></div>
+        <div id="i2" class="opcja" onclick="delet()"><p class="opis1">Delete&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Del</p></div>
+        <div id="i3" class="opcja" onclick="ctrlS()"><p class="opis1">Save to file&emsp;&emsp;&emsp;&emsp;&emsp;Ctrl+S</p></div>
+        <div id="i4" class="opcja" onclick="ctrlL()"><p class="opis1">Load from file  &emsp; &emsp;&emsp;  Ctrl+L</p></div>
+    </div>
+    <input type="file" id="file-selector"  accept="application/JSON" visibility: hidden>
+</body>
+</html>

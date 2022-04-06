@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    position: absolute;
+    left:15px;
+    top:15px;
+    background-color: black;
+
+}
+.front
+{
+    position: absolute;
+    left:15px;
+    top:15px;
+}
+.zaznaczenie
+{
+    position: absolute;
+   
+    opacity: 0.4;
+    background-color: red;
+    z-index: 10;
+}
+#menu
+{
+    position: absolute;
+    width:200px;
+    height: 158px;
+    border:1px solid black;
+    left:700px;
+    top:200px;
+    z-index: 11;
+}
+.opcja
+{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border:1px solid black;
+    display: flex;
+    cursor: pointer;
+}
+.opcja:hover
+{
+    background-color: gray;
+}
+.opis1
+{
+    float: left;
+    margin-top:5px;
+    order: 2;
+}
