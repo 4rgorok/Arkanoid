@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arkanoid</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     
 </head>
 <body oncontextmenu="return false;">
-    <script src="generator.js"></script>
-    <script src="tile.js"></script>
-    <script src="gra.js"></script>
-    <script src="paletka.js"></script>
-    <script src="pilka.js"></script>
+    <script src="./code_files/generator.js"></script>
+    <script src="./code_files/gra.js"></script>
+
+    <script src="./code_files/classes/tile.js"></script>
+    <script src="./code_files/classes/paletka.js"></script>
+    <script src="./code_files/classes/pilka.js"></script>
     <div id="menu" hidden>
         <div id="i0" class="opcja" onclick="ctrlZ()"><p class="opis1">Undo&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;Ctrl+Z</p></div>
         <div id="i1" class="opcja" onclick="ctrlY()"><p class="opis1">Redo&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;Ctrl+Y</p></div>

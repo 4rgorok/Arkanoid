@@ -1,5 +1,3 @@
-'use strict';
-
 const colorBloczka='#727a8f';
 const colorBloczkaZaznaczonego='#913a0f';
 const dlugosc=64;
